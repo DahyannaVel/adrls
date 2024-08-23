@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{ font-size: 2.5em;
+color:rgb(21, 158, 28);
+font-style: oblique;
+display: flex;
+align-items: center;
+justify-content:center;
+text-align: center;
+}
+h2{font-size: 2.7em;
+text-align: center;}
+h3{font-size: 2em;}
+p{font-size: 1.2em;}
+ul{list-style: none;}
+
+body{
+    margin: 0;
+    font-family:"montserrat";
+
+}
+
+a{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    background-color: rgb(117, 179, 56);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+header {
+    background-color: rgb(236, 235, 235);
+    
+}
+header .logo{
+margin: 0;
+justify-content: center;
+text-align: center;
+padding: 25px 30px;
+font-size: 2em;
+font-weight: bold;
+color: rgb(4, 116, 4);
+
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+header a{
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(87, 86, 86);
+}
+header a:hover{
+    color: green;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: rgb(233, 0, 0);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("Assets/FACHADA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#inicio .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 12px
+}
+#inicio .img-container{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(209, 255, 200, 0.5)
+    ),url("Assets/LOGOADRLS2.png");
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    }
+.quienes a{
+    color: black;
+    text-decoration: none;
+}
+#nuestros-servicios{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#nuestros-servicios h2{
+    margin-top: 0;
+    font-size: 2.5em;;
+}
+#nuestros-servicios .container{
+padding: 30px 0px;
+}
+
+#nuestros-servicios p{
+    display: none;
+}
+#nuestros-servicios .carta{
+background-position: center center;
+background-size: cover;
+padding: 50px;
+margin: 20px;
+border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("Assets/FACHADA.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("Assets/FACHADA.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url("Assets/FACHADA.jpg");
+}
+#recoleccion{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(0,0,0,0.5)
+    ) ,url(Assets/reciclaje.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+     }
+#recoleccion .container{
+    text-align: center;
+    padding: 30px 12px;
+  
+}
+#recoleccion li{
+    margin: 16px 0px;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+#contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    height: 35vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    }
+#contacto .img-container a{
+   gap: 30px;
+}
+#contacto a{
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    gap: 20px;
+}
+footer{
+    background-color: rgb(230,230,230);
+}
+footer p{
+    margin: 0;
+    padding: 5px;
+    color: (100.100,100);
+}
+footer .container{
+    height: 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: flex-end;
+}
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #inicio .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inicio .img-container{
+        background-image: url("Assets/LOGOADRLS2.png");
+        background-size: cover;
+        background-position: center center;
+        height: 210px;
+        width: 200px;
+    }
+    #inicio .texto{
+        width: 70%;
+        text-align: justify;
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .quienes a{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+    }
+    #nuestros-servicios .programas{
+        display: flex;
+        justify-content: center;   
+    }
+    #nuestros-servicios p{
+        display: block;
+        margin-bottom: 30px;
+    }
+    #nuestros-servicios .carta{
+        padding: 15px;
+    }
+    #nuestros-servicios h3{
+        margin-top: 0;
+    }
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) ,url("Assets/FACHADA.jpg");
+    }
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) ,url("Assets/FACHADA.jpg");
+    }
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) ,url("Assets/FACHADA.jpg");
+    }
+    #recoleccion{
+        background-image: url(Assets/reciclaje.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    #recoleccion .container{
+        text-align: initial;
+    }
+    #recoleccion .ul{
+        margin-left: 100px;
+        
+    }
+    #contacto{
+        height: 20vh;
+        
+    }
+    #contacto .container{
+        padding: 0px;
+        margin: 0;
+        
+    }
+    #contacto .img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        gap: 50px;
+    }
+}
+
