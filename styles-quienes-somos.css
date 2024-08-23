@@ -8,17 +8,19 @@ html{
 }
 h1{ font-size: 2.5em;
 color:rgb(21, 158, 28);
-font-style: oblique;
 display: flex;
 align-items: center;
 justify-content:center;
 text-align: center;
 }
-h2{font-size: 2.7em;
-text-align: center;}
-h3{font-size: 2em;}
-p{font-size: 1.2em;}
-ul{list-style: none;}
+h2{font-size: 2.3em;
+text-align: center;
+color:rgb(21, 158, 28);}
+h3{font-size: 2em;
+color:rgb(21, 158, 28);}
+p{font-size: 1.2em;
+text-align: justify;}
+ul{list-style:none;}
 
 body{
     margin: 0;
@@ -81,27 +83,8 @@ header a{
 }
 header a:hover{
     color: green;
-}
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 50vh;
-    color: rgb(233, 0, 0);
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
-}
-
-#inicio .container{
+  }
+.container-qs{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,84 +92,36 @@ header a:hover{
     text-align: justify;
     padding: 20px 12px
 }
-#inicio .img-container{
-    background-image: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(209, 255, 200, 0.5)
-    ),url("Assets/LOGOADRLS2.png");
-    background-size: cover;
-    background-position: center center;
-    height: 250px;
-    width: 200px;
-    }
+.container-mv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 12px;
+    gap: 50px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+}
+.objetivos{
+    display: flexbox;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    text-align: justify ;
 
-#nuestros-servicios{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
 }
-#nuestros-servicios h2{
-    margin-top: 0;
-    font-size: 2.5em;;
-}
-#nuestros-servicios .container{
-padding: 30px 0px;
-}
+.valores{
+    color: #fff;
+    background: rgb(0, 0, 0);
+    text-align:justify ;
+    justify-content: center;
+      
 
-#nuestros-servicios p{
-    display: none;
 }
-#nuestros-servicios .carta{
-background-position: center center;
-background-size: cover;
-padding: 50px;
-margin: 20px;
-border-radius: 15px;
-}
-
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-#recoleccion{
-    background-image: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(0,0,0,0.5)
-    ) ,url(Assets/FACHADA2.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    padding: 30px;
-     }
-#recoleccion .container{
-    text-align: center;
-    padding: 30px 12px;
-  
-}
-#recoleccion li{
-    margin: 16px 0px;
-    font-weight: bold;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
+.valores li{
+    width: 90%; 
+    padding: 20px;
 }
 #redes{
     display: flex;
@@ -198,7 +133,7 @@ border-radius: 15px;
     background-color: black;
     color: rgb(255, 255, 255);   
     text-decoration: none;
- }
+    }
 footer{
     background-color: rgb(230,230,230);
 }
@@ -227,98 +162,12 @@ footer .container{
         padding-bottom: 0;
         padding-right: 20px;
     }
-    #hero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #inicio .container{
+    .container-mv{
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
-    }
-
-    #inicio .img-container{
-        background-image: url("Assets/LOGOADRLS2.png");
-        background-size: cover;
-        background-position: center center;
-        height: 250px;
-        width: 200px;
-    }
-    #inicio .texto{
-        width: 70%;
+        justify-content: center;
         text-align: justify;
-        padding: 0px 30px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    #nuestros-servicios .programas{
-        display: flex;
-        justify-content: center;   
-    }
-    #nuestros-servicios p{
-        display: block;
-        margin-bottom: 30px;
-    }
-    #nuestros-servicios .carta{
-        padding: 15px;
-    }
-    #nuestros-servicios h3{
-        margin-top: 0;
-    }
-    .carta:first-child{
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    .carta:nth-child(2){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    .carta:nth-child(3){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    #recoleccion{
-        background-image: url(Assets/FACHADA2.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-    #recoleccion .container{
-        text-align: initial;
-    }
-    #recoleccion .ul{
-        margin-left: 100px;
-        
-    }
-    #contacto{
-        padding: 0px;
-        margin-top: 0;
-        
-    }
-    #contacto .container{
-        padding: 0px;
-        margin: 0;
-        
-    }
-    #contacto .img-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: black;
-        color: rgb(255, 255, 255);
-        gap: 50px;
-    }
+        padding: 20px 12px;
+        gap: 30px;
 }
