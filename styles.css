@@ -193,15 +193,16 @@ border-radius: 15px;
     font-size: 2em;
     color: rgb(255, 255, 255);
 }
-#contacto{
+#redes{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 35vh;
+    height: 50vh;
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);   
+    text-decoration: none;
     }
 #contacto .img-container a{
    gap: 30px;

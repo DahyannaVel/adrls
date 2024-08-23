@@ -188,7 +188,7 @@ border-radius: 15px;
     font-size: 2em;
     color: rgb(255, 255, 255);
 }
-#contacto{
+#redes{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,10 +197,8 @@ border-radius: 15px;
     height: 50vh;
     background-color: black;
     color: rgb(255, 255, 255);   
-}
-#contacto .img-container{
-    
-}
+    text-decoration: none;
+ }
 footer{
     background-color: rgb(230,230,230);
 }
