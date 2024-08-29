@@ -233,24 +233,27 @@ footer .container{
         justify-content: center;
         text-align: center;
    }
-    #redes{
-        padding: 0px;
-        margin-top: 0;
-        height: 35vh;
-        
-    }
-    #redes .container{
-        padding: 0px;
-        margin: 0;
-        
-    }
-    #redes .img-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: black;
-        color: rgb(255, 255, 255);
-        gap: 50px;
-    }
+   #redes{
+    height: 50vh;
+    
+}
+#redes .container{
+    padding: 0px;
+    margin: 0;
+    
+}
+#redes .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    gap: 50px;
+}
+#redes a{
+    gap: 30px;
+    text-decoration: none;
+    color: black;
+}
 }

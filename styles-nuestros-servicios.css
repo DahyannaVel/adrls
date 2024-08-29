@@ -197,8 +197,8 @@ border-radius: 15px;
     height: 50vh;
     background-color: black;
     color: rgb(255, 255, 255);   
-    text-decoration: none;   
-}
+    text-decoration: none;
+    }
 
 footer{
     background-color: rgb(230,230,230);
@@ -303,17 +303,16 @@ footer .container{
         margin-left: 100px;
         
     }
-    #contacto{
-        padding: 0px;
-        margin-top: 0;
+    #redes{
+        height: 50vh;
         
     }
-    #contacto .container{
+    #redes .container{
         padding: 0px;
         margin: 0;
         
     }
-    #contacto .img-container{
+    #redes .img-container{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -321,5 +320,10 @@ footer .container{
         background-color: black;
         color: rgb(255, 255, 255);
         gap: 50px;
+    }
+    #redes a{
+        gap: 30px;
+        text-decoration: none;
+        color: black;
     }
 }
