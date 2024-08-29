@@ -43,7 +43,7 @@ a:hover{
 }
 .container{
     max-width: 1400px;
-    margin: auto;
+    margin: 0;
     
 }
 header {
@@ -259,6 +259,9 @@ footer .container{
         justify-content: center;
         align-items: center;
     }
+    #hero h1{
+        padding-top: 300px;
+      }
     #inicio .container{
         display: flex;
         flex-direction: row;
@@ -287,6 +290,9 @@ footer .container{
         display: flex;
         text-align: center;
     }
+    #nuestros-servicios{
+        height: 65vh;
+    }
     #nuestros-servicios .programas{
         display: flex;
         justify-content: center;   
@@ -306,37 +312,33 @@ footer .container{
             0deg,
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
+        ) ,url("Assets/reciclador.jpg");
     }
     .carta:nth-child(2){
         background-image: linear-gradient(
             0deg,
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
+        ) ,url("Assets/reciclaje.jpg");
     }
     .carta:nth-child(3){
         background-image: linear-gradient(
             0deg,
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
+        ) ,url("Assets/reciclador2.jpeg");
     }
     #recoleccion{
-        background-image: url(Assets/reciclaje.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        
+        height: 75vh;
+        margin: 0;
     }
     #recoleccion .container{
-        text-align: initial;
+        text-align: center;
     }
-    #recoleccion .ul{
-        margin-left: 100px;
-        
-    }
+   
     #redes{
-        height: 50vh;
+        height: 30vh;
+        padding-top: 0px;
         
     }
     #redes .container{
