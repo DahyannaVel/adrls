@@ -17,7 +17,8 @@ text-align: center;
 h2{font-size: 2.7em;
 text-align: center;}
 h3{font-size: 2em;}
-p{font-size: 1.2em;}
+p{font-size: 1.2em;
+text-align: justify;}
 ul{list-style: none;}
 
 body{
@@ -94,99 +95,87 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
+    ) ,url("Assets/reciclador.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
 }
-
-#inicio .container{
+.recoleccion{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: justify;
-    padding: 20px 12px
+    align-items: center;
 }
-#inicio .img-container{
+.img-recoleccion{
     background-image: linear-gradient(
         0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(209, 255, 200, 0.5)
-    ),url("Assets/LOGOADRLS2.png");
+        rgba(255, 255, 255, 0),
+        rgba(209, 255, 200, 0)
+    ),url("Assets/reciclador.jpg");
     background-size: cover;
     background-position: center center;
-    height: 250px;
-    width: 200px;
-    }
-
-#nuestros-servicios{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
+    height: 300px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
 }
-#nuestros-servicios h2{
-    margin-top: 0;
-    font-size: 2.5em;;
+.rutas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#nuestros-servicios .container{
-padding: 30px 0px;
-}
-
-#nuestros-servicios p{
-    display: none;
-}
-#nuestros-servicios .carta{
-background-position: center center;
-background-size: cover;
-padding: 50px;
-margin: 20px;
-border-radius: 15px;
-}
-
-.carta:first-child{
+.img-rutas{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ) ,url("Assets/FACHADA.jpg");
-}
-#recoleccion{
-    background-image: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(0,0,0,0.5)
-    ) ,url(Assets/FACHADA2.jpg); 
-    background-repeat: no-repeat;
+        rgba(255, 255, 255, 0),
+        rgba(209, 255, 200, 0)
+    ),url("Assets/carton.jpeg");
     background-size: cover;
-    color: rgb(255, 255, 255);
-    padding: 30px;
-     }
-#recoleccion .container{
-    text-align: center;
-    padding: 30px 12px;
-  
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
 }
-#recoleccion li{
-    margin: 16px 0px;
-    font-weight: bold;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
+.capacitacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-capacitacion{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0),
+        rgba(209, 255, 200, 0)
+    ),url("Assets/pesa.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+}
+.jornadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-jornadas{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0),
+        rgba(209, 255, 200, 0)
+    ),url("Assets/reciclador2.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
 }
 #redes{
     display: flex;
@@ -194,11 +183,16 @@ border-radius: 15px;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 50vh;
+    height: 60vh;
     background-color: black;
     color: rgb(255, 255, 255);   
-    text-decoration: none;
     }
+#redes a{
+    text-decoration: none;
+    color: black;
+    gap: 30px;
+    
+}
 
 footer{
     background-color: rgb(230,230,230);
