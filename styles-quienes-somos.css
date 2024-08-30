@@ -12,6 +12,7 @@ display: flex;
 align-items: center;
 justify-content:center;
 text-align: center;
+margin: 10px;
 }
 h2{font-size: 2em;
 text-align: center;
@@ -107,7 +108,10 @@ header a:hover{
     align-items: center;
     justify-content: center;
     text-align: justify;
-    padding: 20px 12px
+    padding: 0px 0px 20px 0px;
+}
+.container-qs p{
+    padding: 0px 30px 0px 30px;
 }
 .img-logo{
     background-image: linear-gradient(
@@ -128,7 +132,6 @@ header a:hover{
     align-items: center;
     justify-content: center;
     text-align: justify;
-    padding: 20px 12px;
     gap: 50px;
     color: #fff;
     background: rgb(0, 0, 0);
@@ -171,13 +174,12 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-.objetivos{
+#objetivos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    padding: 10px;
+    padding: 0px 30px 0px 30px;
     text-align: justify ;
 }
 .img-objetivos{
@@ -193,18 +195,25 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-.valores{
+#valores {
     color: #fff;
     background: rgb(0, 0, 0);
-    text-align:justify ;
+    text-align: center ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 30px 0px 30px;
 }
-.valores li{
-    width: 90%; 
-    padding: 10px;
+.valor{
+justify-content:center ;
+align-items:center ;
+display:flex ;
+    
+}
+#valores h2{
+    gap: 30px;
+    padding: 0px 30px 0px 0px;
 }
 .img-valores{
     background-image: linear-gradient(
@@ -218,6 +227,7 @@ header a:hover{
     width: 100px;
     text-decoration: none;
     color: black;
+    align-items: center;
 }
 #redes{
     display: flex;
@@ -263,17 +273,60 @@ footer .container{
         padding-bottom: 0;
         padding-right: 20px;
     }
+    #quienes-somos .container-qs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-logo{
+        background-image: url("Assets/gato1.png");
+        background-size: cover;
+        background-position: center center;
+        height: 210px;
+        width: 200px;
+    }
+    .container-qs .texto{
+        width: 50%;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
     .container-mv{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         text-align: justify;
-        padding: 20px 12px;
+        padding: 10px 10px;
+        gap: 40px;
+    }
+    #objetivos .container-o{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+    #objetivos .texto{
+        width: 80%;
+    }
+    #valores {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 30px;
     }
+    #valores .texto{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     #redes{
-        height: 50vh;
+        height: 30vh;
         
     }
     #redes .container{
@@ -286,8 +339,8 @@ footer .container{
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-color: black;
-        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         gap: 50px;
     }
     #redes a{

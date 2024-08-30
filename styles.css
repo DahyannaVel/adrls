@@ -329,16 +329,18 @@ footer .container{
         ) ,url("Assets/reciclador2.jpeg");
     }
     #recoleccion{
-        height: 75vh;
-        margin: 0;
+        height: 65vh;
+        padding: 0px 30px 0px 30px;
+        
     }
     #recoleccion .container{
         text-align: center;
+        
     }
    
     #redes{
         height: 30vh;
-        padding-top: 0px;
+        padding: 0px 30px 0px 30px;
         
     }
     #redes .container{

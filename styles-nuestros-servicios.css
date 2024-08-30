@@ -227,78 +227,52 @@ footer .container{
         justify-content: center;
         align-items: center;
     }
-    #inicio .container{
+    #recoleccion .container-r{
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: center;
-        align-items: center;
+        text-align: center;
+        gap: 40px;
     }
-
-    #inicio .img-container{
-        background-image: url("Assets/LOGOADRLS2.png");
-        background-size: cover;
-        background-position: center center;
-        height: 250px;
-        width: 200px;
+    #recoleccion .texto{
+        width: 30%;
     }
-    #inicio .texto{
-        width: 70%;
-        text-align: justify;
-        padding: 0px 30px;
+    #rutas .container-rutas{
         display: flex;
+        flex-direction: row;
         align-items: center;
-        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
     }
-    #nuestros-servicios .programas{
+    #rutas .texto{
+        width: 30%;
+    }
+    #capacitacion .container-c{
         display: flex;
-        justify-content: center;   
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
     }
-    #nuestros-servicios p{
-        display: block;
-        margin-bottom: 30px;
+    #capacitacion .texto{
+        width: 30%;
     }
-    #nuestros-servicios .carta{
-        padding: 15px;
+    #jornadas .container-j{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
     }
-    #nuestros-servicios h3{
-        margin-top: 0;
-    }
-    .carta:first-child{
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    .carta:nth-child(2){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    .carta:nth-child(3){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ) ,url("Assets/FACHADA.jpg");
-    }
-    #recoleccion{
-        background-image: url(Assets/FACHADA2.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-    #recoleccion .container{
-        text-align: initial;
-    }
-    #recoleccion .ul{
-        margin-left: 100px;
-        
+    #jornadas .texto{
+        width: 30%;
     }
     #redes{
-        height: 50vh;
+        height: 30vh;
         
     }
     #redes .container{
