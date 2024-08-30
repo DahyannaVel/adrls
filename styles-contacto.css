@@ -149,7 +149,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 70vh;
+    height: 80vh;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
@@ -169,7 +169,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 50vh;
+    height: 60vh;
     background-color: black;
     color: rgb(255, 255, 255);   
     text-decoration: none;

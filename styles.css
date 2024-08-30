@@ -139,16 +139,15 @@ header a:hover{
     color: white;
     text-align: center;
     align-items: center;
-justify-content: center;
-display: flex;
+    justify-content: center;
+    display: flex;
 }
 #nuestros-servicios h2{
-    margin-top: 0;
     font-size: 2.5em;;
 }
 #nuestros-servicios .container{
-padding: 30px 1px;
-
+padding: 0px 10px 10px 0px;
+height: 90vh;
 }
 
 #nuestros-servicios p{
@@ -192,19 +191,15 @@ gap: 30px;
 
   }
 #recoleccion{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
     color: rgb(0, 0, 0);
-    padding: 30px;
+    padding: 0px 20px 0px 20px;
      }
 #recoleccion .container{
     text-align: center;
-    padding: 30px 12px;
+    padding: 0px 20px 0px 20px;
   
 }
 #recoleccion li{
-    margin: 16px 0px;
     font-weight: bold;
     font-size: 2em;
     color: rgb(0, 0, 0);
@@ -225,7 +220,6 @@ gap: 30px;
     gap: 30px;
     
 }
-
 footer{
     background-color: rgb(230,230,230);
 }

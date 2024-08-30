@@ -101,7 +101,7 @@ header a:hover{
     background-position: center center;
 
 }
-.recoleccion{
+#recoleccion .container-r{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +120,7 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-.rutas{
+#rutas .container-rutas{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +139,7 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-.capacitacion{
+#capacitacion .container-c{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +158,7 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-.jornadas{
+#jornadas .container-j{
     display: flex;
     flex-direction: column;
     justify-content: center;

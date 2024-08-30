@@ -174,7 +174,7 @@ header a:hover{
     text-decoration: none;
     color: black;
 }
-#objetivos{
+#objetivos .container-o{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,10 +205,11 @@ header a:hover{
     align-items: center;
     padding: 0px 30px 0px 30px;
 }
-.valor{
+#valores .valor{
 justify-content:center ;
 align-items:center ;
 display:flex ;
+flex-direction: column;
     
 }
 #valores h2{
